@@ -25,20 +25,20 @@ Running Bitcoind<br>
 Generate 100 blocks <br>
 ![generating-100-blocks](assets/generating-100-blocks.png)
 
-Running the tower
+Running the tower <br>
 ![running-the-twoer](assets/running-the-tower.png)
 
-Running the Polar Lightning network with 4 bitcoin cores and 2 Lightning nodes
-![building-lightning-network](assets/building-lightning-network)
+Running the Polar Lightning network with 4 bitcoin cores and 2 Lightning nodes <br>
+![building-lightning-network](assets/building-lightning-network.png)
 
-Registering tower in bob lightning node
-![registering-tower](assets/registering-tower)
+Registering tower in bob lightning node <br>
+![registering-tower](assets/registering-tower.png)
 
-Creating invoice from Bob to Alice on Polar Lightning Network
-![creating-invoice-from-bob-to-alice](assets/creating-invoice-from-bob-to-alice)
+Creating invoice from Bob to Alice on Polar Lightning Network <br>
+![creating-invoice-from-bob-to-alice](assets/creating-invoice-from-bob-to-alice.png)
 
-Getting approved appointmnets
-![getting-approved-appointments](assets/getting-approved-appointments)
+Getting approved appointmnets <br>
+![getting-approved-appointments](assets/getting-approved-appointments.png)
 
 
 2.
