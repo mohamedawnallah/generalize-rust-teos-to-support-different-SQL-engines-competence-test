@@ -19,10 +19,10 @@ The both images after compiling rust-teos and running the tower could be found r
 Running Bitcoind<br>
 ![running-bitcoind](assets/running-bitcoind.png)
 
-Compiling and Installing Rust Teos
+Compiling and Installing Rust Teos <br>
 ![compiling-rust-teos](assets/compiling-rust-teos.png)
 
-Generate 100 blocks
+Generate 100 blocks <br>
 ![generating-100-blocks](assets/generating-100-blocks.png)
 
 Running the tower
