@@ -4,9 +4,10 @@
 
 This repository contains the files created on completing the competence test of "Generalize rust-teos to support different SQL engines" Eye of Satoshi organization project in Summer of Bitcoin 2023.
 
-Submitted by: Mohamed Awnallah<br>
+Submitted by: Mohamed Awnallah <br>
 Operating System: Fedora 37 64bit <br>
-Cargo Version: 1.67.1<br>
+Rust Compiler Version: rustc 1.67.1 (d5a82bbd2 2023-02-07) (Fedora 1.67.1-1.fc37) <br>
+Cargo Package Manager Version: cargo 1.67.1 (8ecd4f20a 2023-01-10) <br>
 
 ## Description of the Competence Test
 1.
@@ -18,7 +19,7 @@ The both images after compiling rust-teos and running the tower could be found r
 Running Bitcoind<br>
 ![running-bitcoind](assets/running-bitcoind.png)
 
-Compiling Rust Teos
+Compiling and Installing Rust Teos
 ![compiling-rust-teos](assets/compiling-rust-teos.png)
 
 Running the tower
