@@ -45,10 +45,12 @@ Getting approved appointmnets <br>
 ```
 Run the test suite
 ```
-The following image after running the test suite for rust-teos could be accessed here [run-the-test-suite](assets/run-the-test-suite)
+The following image shows that all test cases succeeded after running the following commnad:
+```bash
+cargo test
+```
 
-Running the rust-teos test suite
-![rust-teos-test-suite](assets/run-the-test-suite.png)
+![running-the-test-suite](assets/running-the-test-suite.png)
 
 3.
 ```
