@@ -15,6 +15,9 @@ Compile rust-teos and run the tower
 ```
 The both images after compiling rust-teos and running the tower could be found respectively using the following links [compiling-rust-teos](assets/compiling-rust-teos), [running-the-tower](assets/running-the-tower).
 
+Running Bitcoind
+![running-bitcoind](assets/running-bitcoind)
+
 Compiling Rust Teos
 ![compiling-rust-teos](assets/compiling-rust-teos)
 
