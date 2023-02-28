@@ -16,13 +16,13 @@ Compile rust-teos and run the tower
 The both images after compiling rust-teos and running the tower could be found respectively using the following links [compiling-rust-teos](assets/compiling-rust-teos), [running-the-tower](assets/running-the-tower).
 
 Running Bitcoind
-![running-bitcoind](assets/running-bitcoind)
+![running-bitcoind](assets/running-bitcoind.png)
 
 Compiling Rust Teos
-![compiling-rust-teos](assets/compiling-rust-teos)
+![compiling-rust-teos](assets/compiling-rust-teos.png)
 
 Running the tower
-![running-the-twoer](assets/running-the-tower)
+![running-the-twoer](assets/running-the-tower.png)
 
 MAKE SURE TO ADD commands you ran, where you get it from
 
@@ -33,7 +33,7 @@ Run the test suite
 The following image after running the test suite for rust-teos could be accessed here [run-the-test-suite](assets/run-the-test-suite)
 
 Running the rust-teos test suite
-![rust-teos-test-suite](assets/run-the-test-suite)
+![rust-teos-test-suite](assets/run-the-test-suite.png)
 
 3.
 ```
@@ -42,13 +42,13 @@ Create a basic example of loading, storing, and updating data to the teos databa
 The following images for loading, storing, and updating data to the teos database respectively [loading-data-to-teos-database](assets/loading-data-to-teos-database), [storing-data-to-teos-database](assets/storing-data-to-teos-database), and [updating-data-to-teos-database](assets/updatin-data-teos-database)
 
 Loading data to teos database
-![loading-data-to-teos-database](assets/loading-data-to-teos-database)
+![loading-data-to-teos-database](assets/loading-data-to-teos-database.png)
 
 Storing data to teos database
-![storing-data-to-teos-database](assets/storing-data-to-teos-database)
+![storing-data-to-teos-database](assets/storing-data-to-teos-database.png)
 
 Updating data to teos database
-![updating-data-to-teos-database](assets/updating-data-to-teos-database)
+![updating-data-to-teos-database](assets/updating-data-to-teos-database.png)
 
 TODO Add commands you run for this
 
