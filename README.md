@@ -22,6 +22,9 @@ Running Bitcoind<br>
 Compiling and Installing Rust Teos
 ![compiling-rust-teos](assets/compiling-rust-teos.png)
 
+Generate 100 blocks
+![generating-100-blocks](assets/generating-100-blocks.png)
+
 Running the tower
 ![running-the-twoer](assets/running-the-tower.png)
 
