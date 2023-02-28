@@ -45,6 +45,7 @@ Getting approved appointmnets <br>
 ```
 Run the test suite
 ```
+
 The following image shows that all test cases succeeded after running the following commnad:
 ```bash
 cargo test
