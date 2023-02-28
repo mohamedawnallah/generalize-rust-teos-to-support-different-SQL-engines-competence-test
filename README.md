@@ -68,3 +68,5 @@ TODO Add commands you run for this
 ```
 #TODO What are the observations
 
+## Additional Resources
+This training video "Deploying an Eye of Satoshi Lightning Watchtower" helped me to configure Polar Lightning Network and integrate with watch tower. You could access it [here](https://www.youtube.com/watch?v=8vzNB_NZt2A&t=2194s)
