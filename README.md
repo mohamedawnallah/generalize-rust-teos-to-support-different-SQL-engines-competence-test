@@ -28,7 +28,18 @@ Generate 100 blocks <br>
 Running the tower
 ![running-the-twoer](assets/running-the-tower.png)
 
-MAKE SURE TO ADD commands you ran, where you get it from
+Running the Polar Lightning network with 4 bitcoin cores and 2 Lightning nodes
+![building-lightning-network](assets/building-lightning-network)
+
+Registering tower in bob lightning node
+![registering-tower](assets/registering-tower)
+
+Creating invoice from Bob to Alice on Polar Lightning Network
+![creating-invoice-from-bob-to-alice](assets/creating-invoice-from-bob-to-alice)
+
+Getting approved appointmnets
+![getting-approved-appointments](assets/getting-approved-appointments)
+
 
 2.
 ```
