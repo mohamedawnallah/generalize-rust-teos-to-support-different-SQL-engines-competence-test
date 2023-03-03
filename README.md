@@ -106,7 +106,7 @@ SELECT * FROM users WHERE user_id = 1
 ```
 - Select all appointments data in `appointments` table where user_id = 1;
 ```
-SELECT * FROM users WHERE user_id = 1
+SELECT * FROM appointments WHERE user_id = 1
 ```
 ## Additional Resources
 This training video "Deploying an Eye of Satoshi Lightning Watchtower" helped me to configure Polar Lightning Network and integrate with watch tower. You could access it [here](https://www.youtube.com/watch?v=8vzNB_NZt2A&t=2194s)
