@@ -14,7 +14,7 @@ Cargo Package Manager Version: cargo 1.67.1 (8ecd4f20a 2023-01-10) <br>
 ```
 Compile rust-teos and run the tower
 ```
-The both images after compiling rust-teos and running the tower could be found respectively using the following links [compiling-rust-teos](assets/compiling-rust-teos), [running-the-tower](assets/running-the-tower).
+The Process of compiling rust-teos and running the watchtower showing as in the following images:
 
 Compiling and Installing Rust Teos <br>
 ![compiling-rust-teos](assets/compiling-rust-teos.png)
@@ -40,6 +40,8 @@ Creating invoice from Bob to Alice on Polar Lightning Network <br>
 Getting approved appointmnets <br>
 ![getting-approved-appointments](assets/getting-approved-appointments.png)
 
+Teosd up and running all in one <br>
+![teosd-up-and-running-all-in-one](assets/teosd-up-and-running-all-in-one.png)
 
 2.
 ```
@@ -57,30 +59,51 @@ cargo test
 ```
 Create a basic example of loading, storing, and updating data to the teos database
 ```
-The following images for loading, storing, and updating data to the teos database respectively [loading-data-to-teos-database](assets/loading-data-to-teos-database), [storing-data-to-teos-database](assets/storing-data-to-teos-database), and [updating-data-to-teos-database](assets/updatin-data-teos-database)
+I've created a basic crud example for both `users` and `appointments` with fake data into `teos` sqlite3 database. the could be accessed in `scripts` directory
 
-Loading data to teos database
-![loading-data-to-teos-database](assets/loading-data-to-teos-database.png)
 
-Storing data to teos database
-![storing-data-to-teos-database](assets/storing-data-to-teos-database.png)
+Populating Users table schema
+![populating-users-table-schema](assets/populating-users-table-schema.png)
 
-Updating data to teos database
-![updating-data-to-teos-database](assets/updating-data-to-teos-database.png)
+Populating Users fake data
+![populating-users-fake-data](assets/populating-users-fake-data.png)
 
-TODO Add commands you run for this
+Populating Appointments table schema
+![populating-appointments-table-schema](assets/populating-appointments-table-schema.png)
+
+Populating Appointments fake Data
+![populating-appointments-fake-data](assets/populating-appointments-data.png)
 
 ## Instructions to build and run the simple script for loading, storing, updating data to teos-database:
-- Clone this repository and go to the location of the cloned repo.
-- Go to the scripts directory:
-  ```
-  cd scripts
-  ```
-- Run the bash script using the following command:
-```
-./scripts.sh
-```
-#TODO What are the observations
 
+### Prequisities
+- [Rust](https://www.rust-lang.org/tools/install)
+
+### Steps
+- Clone this repository
+- change current working directory to crud_users_appointments_to_teosdb using the following command:
+```bash
+cd scripts/crud_users_appointments_to_teosdb/src
+```
+- Run the following cargo command. This will generate `teos_db.sql3` sqlite3 database.
+```bash
+cargo run main.rs
+```
+- Run sqlite3 command against `teos_db.sql3` using sqlite3 utility in terminal:
+```bash
+sqlite3 teos_db.sql3
+```
+- Run the following command to lookup the current tables:
+```sqlite3
+.tables
+```
+- Select all users data in `users` table where user_id = 1:
+```
+SELECT * FROM users WHERE user_id = 1
+```
+- Select all appointments data in `appointments` table where user_id = 1;
+```
+SELECT * FROM users WHERE user_id = 1
+```
 ## Additional Resources
 This training video "Deploying an Eye of Satoshi Lightning Watchtower" helped me to configure Polar Lightning Network and integrate with watch tower. You could access it [here](https://www.youtube.com/watch?v=8vzNB_NZt2A&t=2194s)
