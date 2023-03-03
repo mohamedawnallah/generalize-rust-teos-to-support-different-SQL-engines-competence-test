@@ -1,8 +1,8 @@
-# Eye of Satoshi Summer of Bitcoin Competence Test 2023
+# Eye of Satoshi Competence Test 2023
 
 ## General Description
 
-This repository contains the files created on completing the competence test of "Generalize rust-teos to support different SQL engines" Eye of Satoshi organization project in Summer of Bitcoin 2023.
+This repository contains the files created on completing the competence test of "Generalize rust-teos to support different SQL engines" Eye of Satoshi organization project.
 
 Submitted by: Mohamed Awnallah <mohamedmohey2352@gmail.com> <br>
 Operating System: Fedora 37 64bit <br>
