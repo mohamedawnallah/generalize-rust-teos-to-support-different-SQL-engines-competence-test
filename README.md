@@ -80,7 +80,10 @@ Populating Appointments fake Data
 - [Rust](https://www.rust-lang.org/tools/install)
 
 ### Steps
-- Clone this repository
+- Clone this repository using the following commnad:
+```
+git clone https://github.com/mhmdawnallah/Generalize-rust-teos-to-support-different-SQL-engines-competence-test.git
+```
 - change current working directory to crud_users_appointments_to_teosdb using the following command:
 ```bash
 cd scripts/crud_users_appointments_to_teosdb/src
