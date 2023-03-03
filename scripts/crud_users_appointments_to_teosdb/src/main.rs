@@ -80,7 +80,6 @@ impl Database {
         user_iter.collect()
     }
 
-   
     fn update_user(&self, user_id: i32, available_slots: i32, subscription_start: i32, subscription_expiry: i32) -> Result<usize> {
         self.conn.execute(
             "UPDATE users SET available_slots = ?2, subscription_start = ?3, subscription_expiry = ?4 WHERE user_id = ?1",
@@ -158,3 +157,4 @@ fn main() -> Result<(), Error> {
     
     Ok(())
 }
+
